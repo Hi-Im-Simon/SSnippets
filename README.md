@@ -12,7 +12,7 @@ SSnippets offers easily customizable snippets without unnecessary complexity.
 Take whatever you need, paste it into your project and stop slowing VSCode down with hundreds of snippets you'll never use, from libraries you'll forget you even installed.
 
 The project was created to:
-- Maintain a "library" of snippets that can be split into parts and fully customized to your project's needs.
+- Maintain a repository of snippets that can be split into parts and fully customized to your project's needs.
 - Make it easier to take your first steps in VSCode snippet creation.
 
 ## Quickstart
