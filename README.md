@@ -4,7 +4,7 @@
 - [About](#About) – why and how?
 - [Quickstart](#Quickstart) – how to integrate SSnippets into your project.
 - [Customization](#Customization) – how to customize SSnippets to your needs.
-- [Account sync](#Account-sync) – how to sync SSnippets across multiple devices.
+- [Account sync](#Account-sync) – how to sync SSnippets across multiple projects and devices.
 
 ## About
 SSnippets offers easily customizable snippets without unnecessary complexity.
@@ -31,7 +31,7 @@ What do all these properties mean? The important ones you should focus on are:
 * `"scope"` – what kind of files should the snippets be suggested in (e.g. _"javascript,html"_ will cause the snippet to be suggested in _.js_ and _.html_ files).
 
 ## Account-sync
-To sync SSnippets across multiple devices using the same account you first need to have your VSCode settings sync turned _on_.
+To sync SSnippets across multiple projects and devices using the same account you first need to have your VSCode settings sync turned _on_.
 
 <p align="center"><img src="https://github.com/user-attachments/assets/53525fbb-eebb-4612-a076-bf4246f3a49d" width="40%"></p>
 
