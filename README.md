@@ -1,4 +1,4 @@
-# Slurm-cluster-configuration
+# SSnippets
 
 ## Content
 - [Quickstart](#Quickstart) – integrating SSnippets into your project.
