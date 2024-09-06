@@ -13,6 +13,7 @@
       "export type ${TM_FILENAME_BASE/(.*)\\..+$/$1/} = z.infer<typeof ${TM_FILENAME_BASE/(.*)\\..+$/$1/}>;"
     ],
     "description": "Empty autonamed Zod object with import,\ntype infer and exports.",
-    "scope": "typescript"
+    "scope": "typescript",
+    "isFileTemplate": true
   }
 }

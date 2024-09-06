@@ -19,7 +19,8 @@
       "export default $TM_FILENAME_BASE;\n"
     ],
     "description": "Basic autonamed MUI component with props interface declaration.",
-    "scope": "typescriptreact"
+    "scope": "typescriptreact",
+    "isFileTemplate": true
   },
   "MUI state component": {
     "prefix": "ss-tsreactmui-comp-w-state-autoname",
@@ -39,6 +40,7 @@
       "export default $TM_FILENAME_BASE;\n"
     ],
     "description": "!!!PRESS TAB TO AUTO-FORMAT NAME!!!\n\nBasic autonamed MUI component with\nprops interface declaration\nand a state.",
-    "scope": "typescriptreact"
+    "scope": "typescriptreact",
+    "isFileTemplate": true
   }
 }
