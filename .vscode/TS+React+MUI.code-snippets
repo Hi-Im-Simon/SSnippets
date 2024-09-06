@@ -1,0 +1,44 @@
+{
+  // Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  "MUI component": {
+    "prefix": "ss-tsreactmui-comp-autoname",
+    "body": [
+      "import { Box } from \"@mui/material\";\n",
+      "interface Props {\n",
+      "}\n",
+      "const $TM_FILENAME_BASE = (props: Props) => {",
+      "\treturn (",
+      "\t\t<Box>",
+      "\t\t\t$0",
+      "\t\t</Box>",
+      "\t);",
+      "};\n",
+      "export default $TM_FILENAME_BASE;\n"
+    ],
+    "description": "Basic autonamed MUI component with props interface declaration.",
+    "scope": "typescriptreact"
+  },
+  "MUI state component": {
+    "prefix": "ss-tsreactmui-comp-w-state-autoname",
+    "body": [
+      "import { Box } from \"@mui/material\";",
+      "import { useState } from \"react\";\n",
+      "interface Props {\n",
+      "}\n",
+      "const $TM_FILENAME_BASE = (props: Props) => {",
+      "const [$1, set${1/(.*)/${1:/capitalize}/}] = useState<${2:boolean}>($3);\n",
+      "\treturn (",
+      "\t\t<Box>",
+      "\t\t\t$0",
+      "\t\t</Box>",
+      "\t);",
+      "};\n",
+      "export default $TM_FILENAME_BASE;\n"
+    ],
+    "description": "!!!PRESS TAB TO AUTO-FORMAT NAME!!!\n\nBasic autonamed MUI component with\nprops interface declaration\nand a state.",
+    "scope": "typescriptreact"
+  }
+}

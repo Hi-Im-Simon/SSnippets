@@ -1,0 +1,32 @@
+{
+  // Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  "React useState": {
+    "prefix": "ss-tsreact-useState",
+    "body": [
+      "const [${1:name}, set${1/(.*)/${1:/capitalize}/}] = useState<${2:boolean}>($3);"
+    ],
+    "description": "!!!PRESS TAB TO AUTO-FORMAT NAME!!!\n\nReact useState declaration.",
+    "scope": "typescriptreact"
+  },
+  "React useRef": {
+    "prefix": "ss-tsreact-useRef",
+    "body": ["const ${1:name}Ref = useRef<${2:boolean}>(${3:null});"],
+    "description": "React useRef declaration.",
+    "scope": "typescriptreact"
+  },
+  "React useEffect": {
+    "prefix": "ss-tsreact-useEffect",
+    "body": ["useEffect(() => {", "\t$0", "}, []);"],
+    "description": "React useEffect declaration.",
+    "scope": "typescriptreact"
+  },
+  "React useMemo": {
+    "prefix": "ss-tsreact-useMemo",
+    "body": ["useMemo(() => ${1:func(arg)}, [${0:arg}]);"],
+    "description": "React useMemo declaration.",
+    "scope": "typescriptreact"
+  }
+}
